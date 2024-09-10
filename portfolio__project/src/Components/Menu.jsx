@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 
 const Menu = () => {
-  return <div>Menu</div>;
+  return (
+    <div>
+      <div></div>
+    </div>
+  );
 };
 
 export default Menu;

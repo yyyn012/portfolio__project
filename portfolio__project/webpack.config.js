@@ -40,6 +40,6 @@ module.exports = {
   },
   devServer: {
     devMiddleware: { publicPath: "/dist" },
-    static: { directory: path.resolve(__dirname) },
+    static: { directory: path.resolve(__dirname, "./src/") },
   },
 };
