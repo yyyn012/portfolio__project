@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import AboutMe from "./AboutMe";
 import Menu from "./Menu";
+import "/src/Components/Portfolio.scss";
 
 const Portfolio = () => {
   return (

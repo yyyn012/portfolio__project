@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Menu = () => {
   return (
     <div>
-      <div></div>
+      <div>Menu</div>
     </div>
   );
 };
