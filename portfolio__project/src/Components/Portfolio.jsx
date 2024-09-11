@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import AboutMe from "./AboutMe";
 import Menu from "./Menu";
-import "/src/Components/Portfolio.scss";
+import "./Portfolio.scss";
 
 const Portfolio = () => {
   return (
-    <div>
+    <div className="div">
       <h1>Portfolio</h1>
       <Menu />
       <AboutMe />
