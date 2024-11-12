@@ -9,7 +9,6 @@ const Main = (props) => {
       <Header />
       <main id="main" role="main">
         {props.children}
-        Main
       </main>
       <Footer />
     </div>

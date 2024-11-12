@@ -7,14 +7,14 @@ const Menu = () => {
   return (
     <nav className="header__menu">
       <ul className="menu">
-        {headerMenu.map((menu, key) => {
+        {headerMenu.map((menu, key) => (
           <li
             key={key}
             className={location.pathname === menu.src ? "active" : ""}
           >
             <Link to={menu.src}>{menu.title}</Link>
-          </li>;
-        })}
+          </li>
+        ))}
       </ul>
     </nav>
   );

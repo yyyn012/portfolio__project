@@ -1,9 +1,5 @@
 export const headerMenu = [
   {
-    title: "main",
-    src: "/",
-  },
-  {
     title: "Kakaobank",
     src: "/Kakaobank",
   },
