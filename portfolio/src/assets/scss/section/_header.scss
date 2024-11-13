@@ -1,0 +1,35 @@
+.header__logo {
+  padding: 20px;
+  border: 1px solid red;
+  span {
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 800;
+    cursor: pointer;
+  }
+}
+
+.header__menu {
+  margin: 20px;
+  border: 1px solid red;
+  .menu {
+    li {
+      margin-bottom: 5px;
+
+      a {
+        font-size: 1rem;
+        display: block;
+        color: var(--white200);
+        transition: all 0.3s;
+        &:hover {
+          background-color: var(--black100);
+          color: var(--white);
+        }
+      }
+      &.active a {
+        background-color: var(--black100);
+        color: var(--white);
+      }
+    }
+  }
+}
