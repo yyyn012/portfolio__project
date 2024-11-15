@@ -1,15 +1,11 @@
 export const headerMenu = [
   {
-    title: "Kakaobank",
-    src: "/Kakaobank",
+    title: "AboutMe",
+    src: "/AboutMe",
   },
   {
-    title: "Noticeboard",
-    src: "/Noticeboard",
-  },
-  {
-    title: "Todolist",
-    src: "/Todolist",
+    title: "Project",
+    src: "/Project",
   },
   {
     title: "Contact",

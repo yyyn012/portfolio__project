@@ -2,6 +2,12 @@ body {
   background-color: var(--white100);
   color: var(--white);
 
+  h1 {
+    text-shadow: -2px 0 var(--brown100), 0 2px var(--brown100),
+      2px 0 var(--brown100), 0 -2px var(--brown100);
+    color: var(--white);
+  }
+
   a {
     text-shadow: -2px 0 var(--brown100), 0 2px var(--brown100),
       2px 0 var(--brown100), 0 -2px var(--brown100);

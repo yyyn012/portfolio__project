@@ -3,21 +3,20 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Main from "./components/section/Main";
 
-import Kakaobank from "./components/contents/Kakaobank";
-import Noticeboard from "./components/contents/Noticeboard";
-import Todolist from "./components/contents/Todolist";
+import AboutMe from "./components/contents/AboutMe";
+import Project from "./components/contents/Project";
 import Contact from "./components/contents/Contact";
 
 function App() {
   return (
     <BrowserRouter>
-      <Main />
-      <Routes>
-        <Route path="/KaKaobank" element={<Kakaobank />} />
-        <Route path="/Noticeboard" element={<Noticeboard />} />
-        <Route path="/Todolist" element={<Todolist />} />
-        <Route path="/Contact" element={<Contact />} />
-      </Routes>
+      <Main>
+        <Routes>
+          <Route path="/AboutMe" element={<AboutMe />} />
+          <Route path="/Project" element={<Project />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
+      </Main>
     </BrowserRouter>
   );
 }
