@@ -2,11 +2,9 @@ import React from "react";
 
 const Logo = ({ toggleMenu }) => {
   return (
-    <h1 className="header__logo">
-      <span onClick={toggleMenu}>
-        LeeHyeYeon <br /> Portfolio
-      </span>
-    </h1>
+    <div className="header__logo">
+      <span onClick={toggleMenu}>LeeHyeYeon Portfolio</span>
+    </div>
   );
 };
 
