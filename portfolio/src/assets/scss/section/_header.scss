@@ -28,17 +28,18 @@
     li {
       a {
         display: block;
-        margin: 3px 0;
+        padding: 7px;
         font-size: 1.1rem;
         font-weight: 500;
-        transition: all 0.13s;
+        transition: all 0.8s;
+        border-radius: 10px;
         &:hover {
-          border-bottom: 2px solid var(--brown100);
+          background-color: var(--brown100);
           color: var(--white);
         }
       }
       &.active a {
-        border-bottom: 2px solid var(--brown100);
+        background-color: var(--brown100);
       }
     }
   }
