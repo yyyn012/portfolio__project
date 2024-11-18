@@ -16,14 +16,14 @@
 }
 
 .header__menu {
-  padding: 20px;
+  height: 70px;
+  padding: 18px;
   border-bottom: 2px solid var(--brown100);
   background-color: var(--white300);
 
   .menu {
     display: flex;
     justify-content: space-around;
-    height: 30px;
 
     li {
       a {
