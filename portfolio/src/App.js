@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Main from "./components/section/Main";
 
+import Home from "./components/Home";
 import AboutMe from "./components/contents/AboutMe";
 import Project from "./components/contents/Project";
 import Contact from "./components/contents/Contact";
@@ -12,6 +13,7 @@ function App() {
     <BrowserRouter>
       <Main>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/Project" element={<Project />} />
           <Route path="/Contact" element={<Contact />} />

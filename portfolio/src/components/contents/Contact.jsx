@@ -1,7 +1,7 @@
 import React from "react";
 
 const Contact = () => {
-  return <div>contact(git, email)</div>;
+  return <span>contact(git, email)</span>;
 };
 
 export default Contact;

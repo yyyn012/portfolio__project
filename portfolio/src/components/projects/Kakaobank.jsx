@@ -3,8 +3,7 @@ import React from "react";
 const Kakaobank = () => {
   return (
     <div id="kakaobank">
-      {" "}
-      <span>Kakaobank</span>{" "}
+      <span>Kakaobank</span>
     </div>
   );
 };
