@@ -2,8 +2,8 @@ import React from "react";
 
 const Todolist = () => {
   return (
-    <div id="todolist">
-      <span>Todolist</span>{" "}
+    <div className="project__content">
+      <span>Todolist</span>
     </div>
   );
 };

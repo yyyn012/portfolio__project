@@ -1,7 +1,21 @@
 import React from "react";
 
 const Contact = () => {
-  return <span>contact(git, email)</span>;
+  return (
+    <div id="contact">
+      <h1 className="subject__txt">
+        <i class="fa-solid fa-asterisk"></i>Contact
+      </h1>
+
+      <div className="contact__wrap">
+        <form action="">
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+        </form>
+      </div>
+    </div>
+  );
 };
 
 export default Contact;

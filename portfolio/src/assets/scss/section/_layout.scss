@@ -10,10 +10,21 @@
 #main {
   max-width: 2000px;
   min-height: 100vh;
-  margin: 0;
-  padding-top: 200px;
+  margin: 0 20px;
   background-color: var(--white300);
   border-bottom: 2px solid var(--brown100);
+}
+
+.subject__txt {
+  font-size: 26px;
+  font-weight: 900;
+  color: var(--brown100);
+  text-shadow: -2px 0 var(--white), 0 2px var(--white), 2px 0 var(--white),
+    0 -2px var(--white);
+  padding: 20px 0;
+  i {
+    padding: 5px;
+  }
 }
 
 #footer {

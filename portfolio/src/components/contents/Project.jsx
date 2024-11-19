@@ -7,9 +7,14 @@ import Kakaobank from "../projects/Kakaobank";
 const Project = () => {
   return (
     <section id="project">
-      <Board />
-      <Todolist />
-      <Kakaobank />
+      <h1 className="subject__txt">
+        <i class="fa-solid fa-asterisk"></i>Project
+      </h1>
+      <div className="project__content__wrap">
+        <Board />
+        <Todolist />
+        <Kakaobank />
+      </div>
     </section>
   );
 };
