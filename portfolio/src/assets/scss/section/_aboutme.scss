@@ -1,7 +1,13 @@
 #aboutme {
-  margin: 30px;
+  // padding: 140px 20px 100px 20px;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  border-bottom: 2px solid var(--brown100);
+
+  .aboutme__wrap {
+    display: flex;
+    justify-content: space-evenly;
+  }
 
   img {
     width: 500px;
@@ -24,7 +30,6 @@
       font-size: 18px;
       display: block;
       width: 700px;
-      height: 700px;
     }
   }
 }
