@@ -6,11 +6,13 @@ import Contact from "./contents/Contact";
 
 const Home = () => {
   return (
-    <Main>
-      <AboutMe />
-      <Project />
-      <Contact />
-    </Main>
+    <div id="home">
+      <Main>
+        <AboutMe />
+        <Project />
+        <Contact />
+      </Main>
+    </div>
   );
 };
 
