@@ -3,6 +3,7 @@ import React from "react";
 import Board from "../projects/Board";
 import Todolist from "../projects/Todolist";
 import Kakaobank from "../projects/Kakaobank";
+import Skytour from "../projects/Skytour";
 
 const Project = () => {
   return (
@@ -14,6 +15,7 @@ const Project = () => {
         <Board />
         <Todolist />
         <Kakaobank />
+        <Skytour />
       </div>
     </section>
   );
