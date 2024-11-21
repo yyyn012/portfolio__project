@@ -10,7 +10,7 @@ const AboutMe = () => {
       </h1>
       <div className="aboutme__wrap">
         <img src={profile} alt="profile_img" />
-        <div className="txt_aboutme">
+        <div className="aboutme__txt">
           <h1>Lorem ipsum</h1>
           <span>
             dolor sit, amet consectetur adipisicing elit. Quis eligendi dicta

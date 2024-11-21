@@ -1,8 +1,8 @@
 #aboutme {
-  // padding: 140px 20px 100px 20px;
-  display: flex;
-  flex-direction: column;
+  position: relative;
   border-bottom: 2px solid var(--brown100);
+  top: 180px;
+  padding: 0 150px 50px 150px;
 
   .aboutme__wrap {
     display: flex;
@@ -18,7 +18,7 @@
     box-shadow: 3px 3px 3px var(--brown100);
   }
 
-  .txt_aboutme {
+  .aboutme__txt {
     padding: 30px;
 
     h1 {
@@ -36,7 +36,9 @@
 
 @media (max-width: 1280px) {
   #aboutme {
-    .txt_aboutme {
+    padding: 0 20px 60px 20px;
+
+    .aboutme__txt {
       h1 {
         font-size: 27px;
         padding-bottom: 30px;
@@ -59,7 +61,7 @@
       height: 350px;
     }
 
-    .txt_aboutme {
+    .aboutme__txt {
       h1 {
         font-size: 27px;
         padding-bottom: 30px;
