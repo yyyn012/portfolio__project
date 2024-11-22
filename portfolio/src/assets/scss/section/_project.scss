@@ -1,20 +1,29 @@
 #project {
   display: flex;
   flex-direction: column;
-  border-bottom: 2px solid var(--brown100);
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--brown100);
   position: relative;
   top: 180px;
-  padding: 0 150px 50px 150px;
+  padding: 20px 150px 100px 150px;
 
   h1 {
-    padding-bottom: 15px;
+    padding: 45px 0 100px;
   }
 
   .project__content__wrap {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    padding-bottom: 25px;
+
     .project__content {
-      padding: 15px;
+      width: 500px;
+      height: 550px;
+      margin-left: 25px;
+      border: 1px solid var(--white);
     }
   }
 }
@@ -22,14 +31,18 @@
 @media (max-width: 1280px) {
   #project {
     padding: 0 20px 60px 20px;
+
+    h1 {
+      padding-bottom: 50px;
+    }
+
+    .project__content__wrap {
+      padding-bottom: 15px;
+      .project__content {
+        width: 350px;
+        height: 400px;
+        margin-left: 15px;
+      }
+    }
   }
 }
-
-// @media (max-width: 800px) {
-//   #project {
-//     img {
-//       width: 350px;
-//       height: 350px;
-//     }
-//   }
-// }

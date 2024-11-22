@@ -14,6 +14,8 @@ const Project = () => {
       <div className="project__content__wrap">
         <Board />
         <Todolist />
+      </div>
+      <div className="project__content__wrap">
         <Kakaobank />
         <Skytour />
       </div>
