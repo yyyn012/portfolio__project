@@ -3,20 +3,17 @@ body {
   color: var(--black);
 
   h1 {
-    // text-shadow: -2px 0 var(--brown100), 0 2px var(--brown100),
-    //   2px 0 var(--brown100), 0 -2px var(--brown100);
+    letter-spacing: 2.5px;
     color: var(--white);
   }
 
   a {
-    // text-shadow: -2px 0 var(--brown100), 0 2px var(--brown100),
-    //   2px 0 var(--brown100), 0 -2px var(--brown100);
+    letter-spacing: 1px;
     color: var(--white);
   }
 
   span {
-    // text-shadow: -2px 0 var(--brown100), 0 2px var(--brown100),
-    //   2px 0 var(--brown100), 0 -2px var(--brown100);
+    letter-spacing: 1px;
     color: var(--white);
   }
 }
