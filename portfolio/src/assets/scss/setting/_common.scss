@@ -1,22 +1,22 @@
 body {
-  background-color: var(--white100);
-  color: var(--white);
+  background-color: var(--black);
+  color: var(--black);
 
   h1 {
-    text-shadow: -2px 0 var(--brown100), 0 2px var(--brown100),
-      2px 0 var(--brown100), 0 -2px var(--brown100);
+    // text-shadow: -2px 0 var(--brown100), 0 2px var(--brown100),
+    //   2px 0 var(--brown100), 0 -2px var(--brown100);
     color: var(--white);
   }
 
   a {
-    text-shadow: -2px 0 var(--brown100), 0 2px var(--brown100),
-      2px 0 var(--brown100), 0 -2px var(--brown100);
+    // text-shadow: -2px 0 var(--brown100), 0 2px var(--brown100),
+    //   2px 0 var(--brown100), 0 -2px var(--brown100);
     color: var(--white);
   }
 
   span {
-    text-shadow: -2px 0 var(--brown100), 0 2px var(--brown100),
-      2px 0 var(--brown100), 0 -2px var(--brown100);
+    // text-shadow: -2px 0 var(--brown100), 0 2px var(--brown100),
+    //   2px 0 var(--brown100), 0 -2px var(--brown100);
     color: var(--white);
   }
 }
