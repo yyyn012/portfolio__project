@@ -1,45 +1,51 @@
 .header__logo {
   padding: 22px;
-  background-color: var(--white300);
+  background-color: var(--black);
   display: block;
-  border-bottom: 2px solid var(--brown100);
+  border-bottom: 1px solid var(--white);
 
   span {
-    font-size: 20px;
-    line-height: 1;
-    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 2px;
+    // font-weight: 800;
     cursor: pointer;
-    color: var(--brown100);
-    text-shadow: -2px 0 var(--white), 0 2px var(--white), 2px 0 var(--white),
-      0 -2px var(--white);
+    // color: var(--brown100);
+    // text-shadow: -2px 0 var(--white), 0 2px var(--white), 2px 0 var(--white);
+    // 0 -2px var(--white);
   }
 }
 
 .header__menu {
   height: 70px;
   padding: 18px;
-  border-bottom: 2px solid var(--brown100);
-  background-color: var(--white300);
+  border-bottom: 1px solid var(--white);
+  background-color: var(--black);
+  // background-color: var(--white300);
 
   .menu {
     display: flex;
     justify-content: space-around;
+    line-height: 17px;
 
     li {
       a {
         display: block;
-        padding: 7px;
+        width: 125px;
+        text-align: center;
+        padding: 8px 18px;
         font-size: 1.1rem;
-        font-weight: 500;
+        letter-spacing: 1.5px;
         transition: all 0.8s;
-        border-radius: 10px;
+        border-radius: 40px;
         &:hover {
-          background-color: var(--brown100);
-          color: var(--white);
+          background-color: var(--white500);
+          color: var(--black);
+          font-weight: 500;
         }
       }
       &.active a {
-        background-color: var(--brown100);
+        background-color: var(--white500);
+        color: var(--black);
       }
     }
   }
