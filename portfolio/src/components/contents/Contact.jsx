@@ -12,6 +12,7 @@ const Contact = () => {
           <input type="text" />
           <input type="text" />
           <input type="text" />
+          <button type="button"></button>
         </form>
       </div>
     </div>
