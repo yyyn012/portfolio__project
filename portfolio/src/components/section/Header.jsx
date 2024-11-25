@@ -4,16 +4,16 @@ import Logo from "../header/Logo";
 import Menu from "../header/Menu";
 
 const Header = () => {
-  const [menuActive, setMenuActive] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setMenuActive(!menuActive);
-    console.log("active");
+    setMenuOpen((menuOpen) => !menuOpen);
+    console.log("open");
   };
 
   return (
     <header id="header" role="banner">
-      <Logo toggleMenu={toggleMenu} />
+      <Logo />
       <Menu />
     </header>
   );
