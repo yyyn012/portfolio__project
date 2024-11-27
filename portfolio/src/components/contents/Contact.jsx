@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div id="contact">
       <h1 className="subject__txt">
-        <i class="fa-solid fa-asterisk"></i>Contact
+        <i className="fa-solid fa-asterisk"></i>Contact
       </h1>
 
       <div className="contact__wrap">

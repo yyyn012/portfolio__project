@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <section id="aboutme">
       <h1 className="subject__txt">
-        <i class="fa-solid fa-asterisk"></i>AboutMe
+        <i className="fa-solid fa-asterisk"></i>AboutMe
       </h1>
       <div className="aboutme__wrap">
         <img src={profile} alt="profile_img" />
