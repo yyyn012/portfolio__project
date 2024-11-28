@@ -37,40 +37,12 @@
           font-weight: 500;
         }
       }
-      // &.active a {
-      //   background-color: var(--white500);
-      //   color: var(--white);
-      // }
     }
   }
 }
 
 @media (max-width: 800px) {
   .header__menu {
-    .menu {
-      display: none;
-    }
-
-    // &.open {
-    //   display: block;
-    //   background-color: white;
-    //   width: 300px;
-    //   height: 500px;
-    // }
+    display: none;
   }
-
-  // .header__menu.open ul {
-  //   display: block;
-  //   position: absolute;
-  //   right: 0;
-  //   top: 70px;
-  //   background-color: var(--blackAlpha100);
-  //   z-index: 10000;
-  //   min-width: 150px;
-  // }
-
-  // .header__menu.open li {
-  //   display: block;
-  //   text-align: right;
-  // }
 }

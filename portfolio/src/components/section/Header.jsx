@@ -5,18 +5,11 @@ import Menu from "../header/Menu";
 import SideMenu from "../header/SideMenu";
 
 const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuOpen((menuOpen) => !menuOpen);
-    console.log("open");
-  };
-
   return (
-    <header id="header" role="banner" className={menuOpen ? "open" : ""}>
+    <header id="header" role="banner">
       <Logo />
       <Menu />
-      <SideMenu toggleMenu={toggleMenu} />
+      <SideMenu />
     </header>
   );
 };

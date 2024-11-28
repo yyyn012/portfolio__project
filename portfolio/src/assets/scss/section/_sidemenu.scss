@@ -1,12 +1,19 @@
 #sideMenu {
   display: none;
+  position: absolute;
+  top: 55px;
+  left: 0;
+  width: 120px;
+  background-color: black;
+  padding: 10px 20px 20px;
+  border-radius: 10px;
 
   .sideMenu__button {
     display: none;
-    color: var(--white);
-    background-color: var(--black);
+    color: white;
+    background: none;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 23px;
   }
 }
 
@@ -17,12 +24,5 @@
     .sideMenu__button {
       display: block;
     }
-
-    // &.open {
-    //   display: block;
-    //   background-color: white;
-    //   width: 300px;
-    //   height: 500px;
-    // }
   }
 }
