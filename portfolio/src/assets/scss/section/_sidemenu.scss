@@ -1,28 +1,35 @@
 #sideMenu {
   display: none;
-  position: absolute;
-  top: 55px;
-  left: 0;
+  top: 0;
+  right: 0;
   width: 120px;
-  background-color: none;
-  padding: 10px 20px 20px;
-  border-radius: 10px;
+  height: 200px;
 
   .sideMenu__button {
+    position: absolute;
+    top: 12px;
+    right: 30px;
     display: none;
     color: white;
     background: none;
     cursor: pointer;
-    font-size: 23px;
-    text-shadow: -2px 0 var(--blackAlpha300), 0 2px var(--blackAlpha300),
-      2px 0 var(--blackAlpha300), 0 -2px var(--blackAlpha300);
+    font-size: 18px;
+    text-shadow: -2px 0 var(--black), 0 2px var(--black), 2px 0 var(--black),
+      0 -2px var(--black);
   }
 
   .toggle__menu {
+    position: absolute;
+    top: 70px;
+    text-align: right;
+    transition: all 2s;
     a {
-      color: white;
-      text-shadow: -2px 0 var(--blackAlpha300), 0 2px var(--blackAlpha300),
-        2px 0 var(--blackAlpha300), 0 -2px var(--blackAlpha300);
+      color: black;
+      background-color: black;
+      border-radius: 10px;
+      font-size: 18px;
+      text-shadow: -1px 0 var(--white400), 0 1px var(--white400),
+        2px 0 var(--white400), 0 -2px var(--white400);
     }
   }
 }

@@ -11,13 +11,13 @@ const SideMenu = () => {
 
   return (
     <div id="sideMenu">
-      <a className="sideMenu__button" role="button" onClick={openMenu}>
+      <button className="sideMenu__button" role="button" onClick={openMenu}>
         {isOpen ? (
           <i className="fa-solid fa-x"></i>
         ) : (
           <i className="fa-solid fa-bars"></i>
         )}
-      </a>
+      </button>
       <ul
         className="toggle__menu"
         style={{ display: isOpen ? "block" : "none" }}

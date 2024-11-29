@@ -1,43 +1,51 @@
-.header__logo {
-  padding: 15px 20px;
-  background-color: var(--black);
-  display: block;
-  border-bottom: 1px solid var(--white);
+#header {
+  position: relative;
 
-  span {
-    font-size: 16px;
-    letter-spacing: 2px;
-    cursor: pointer;
+  .header__logo {
+    padding: 15px 20px;
+    background-color: var(--black);
+    display: block;
+    border-bottom: 1px solid var(--white);
+
+    span {
+      font-size: 16px;
+      letter-spacing: 2px;
+      cursor: pointer;
+    }
   }
-}
 
-.header__menu {
-  height: 70px;
-  padding: 18px;
-  backdrop-filter: blur(50px);
+  .header__menu {
+    height: 70px;
+    padding: 18px;
+    backdrop-filter: blur(50px);
 
-  .menu {
-    display: flex;
-    justify-content: space-around;
-    line-height: 17px;
+    .menu {
+      display: flex;
+      justify-content: space-around;
+      line-height: 17px;
 
-    li {
-      a {
-        display: block;
-        width: 125px;
-        text-align: center;
-        padding: 8px 18px;
-        font-size: 1.1rem;
-        letter-spacing: 1.5px;
-        transition: all 0.8s;
-        border-radius: 40px;
-        &:hover {
-          background-color: var(--white500);
-          color: var(--black);
-          font-weight: 500;
+      li {
+        a {
+          display: block;
+          width: 125px;
+          text-align: center;
+          padding: 8px 18px;
+          font-size: 1.1rem;
+          letter-spacing: 1.5px;
+          transition: all 0.8s;
+          border-radius: 40px;
+          &:hover {
+            background-color: var(--white500);
+            color: var(--black);
+            font-weight: 500;
+          }
         }
       }
     }
+  }
+
+  #sideMenu {
+    position: absolute;
   }
 }
 
