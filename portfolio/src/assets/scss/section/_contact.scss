@@ -1,6 +1,5 @@
 #contact {
   position: relative;
-  border-bottom: 1px solid var(--white);
   top: 180px;
   padding: 0 150px 100px 150px;
 
@@ -8,7 +7,7 @@
     padding: 45px 0 100px;
   }
 
-  .contact__wrap > form {
+  .contact__wrap {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
