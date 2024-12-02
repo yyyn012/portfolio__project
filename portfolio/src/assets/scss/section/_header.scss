@@ -40,6 +40,11 @@
             font-weight: 500;
           }
         }
+        &.active a {
+          background-color: var(--white500);
+          color: var(--black);
+          font-weight: 500;
+        }
       }
     }
   }
