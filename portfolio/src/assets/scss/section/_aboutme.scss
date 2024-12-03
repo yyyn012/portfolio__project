@@ -1,9 +1,10 @@
 #aboutme {
-  position: relative;
+  // position: relative;
   border-bottom: 1px solid var(--white);
-  top: 180px;
+  // top: 180px;
   width: 1400px;
-  padding: 0 300px 100px 300px;
+  margin-top: 180px;
+  // padding: 0 300px 100px 300px;
 
   .aboutme__wrap {
     display: flex;
@@ -49,14 +50,15 @@
         img {
           width: 350px;
           height: 450px;
+          margin-right: 1px;
         }
         .aboutme__txt {
-          width: 450px;
           h1 {
             font-size: 20px;
           }
 
           span {
+            width: 370px;
             font-size: 14px;
           }
         }
