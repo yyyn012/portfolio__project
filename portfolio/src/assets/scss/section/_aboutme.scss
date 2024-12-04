@@ -2,13 +2,12 @@
   position: relative;
   border-bottom: 1px solid var(--white);
   // top: 180px;
-  width: 1400px;
   margin-top: 180px;
-  // padding: 0 300px 100px 300px;
 
   .aboutme__wrap {
     display: flex;
     flex-direction: column;
+    padding-bottom: 60px;
 
     .aboutme__content {
       display: flex;
@@ -75,7 +74,7 @@
     top: -90px;
     min-width: 750px;
     padding: 30px;
-    border: none;
+    border-bottom: 1px solid white;
 
     .aboutme__wrap {
       .subject__txt {
