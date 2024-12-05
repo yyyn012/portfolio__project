@@ -19,7 +19,7 @@ const SideMenu = () => {
         )}
       </button>
       <ul
-        className="toggle__menu"
+        className={isOpen ? "slide" : ""}
         style={{ display: isOpen ? "block" : "none" }}
       >
         {headerMenu.map((menu, key) => (

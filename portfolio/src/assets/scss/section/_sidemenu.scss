@@ -1,9 +1,10 @@
 #sideMenu {
+  position: relative;
   display: none;
   top: 0;
   right: 0;
   width: 120px;
-  height: 200px;
+  height: 60px;
 
   .sideMenu__button {
     position: absolute;
@@ -18,11 +19,14 @@
       0 -2px var(--black);
   }
 
-  .toggle__menu {
+  ul {
     position: absolute;
     top: 70px;
+    max-height: 0;
     text-align: right;
-    transition: all 2s;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+
     a {
       color: black;
       background-color: black;
@@ -43,3 +47,21 @@
     }
   }
 }
+
+.slide {
+  max-height: 200px;
+}
+
+// @keyframes ani {
+//   0% {
+//     transform: translateY(-100px);
+//   }
+
+//   50% {
+//     transform: translateY(-50px);
+//   }
+
+//   100% {
+//     transform: translateY(0);
+//   }
+// }
