@@ -1,16 +1,22 @@
 import React, { useState } from "react";
-import { headerMenu } from "../../data/header";
-import { Link } from "react-router-dom";
 
-const SideMenu = () => {
+import Dropdown from "./Dropdown";
+
+const SideMenu = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const openMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleBlur = () => {
+    setTimeout(() => {
+      setIsOpen(false);
+    }, 200);
+  };
+
   return (
-    <div id="sideMenu">
+    <div id="sideMenu" onBlur={handleBlur}>
       <button className="sideMenu__button" role="button" onClick={openMenu}>
         {isOpen ? (
           <i className="fa-solid fa-x"></i>
@@ -18,16 +24,8 @@ const SideMenu = () => {
           <i className="fa-solid fa-bars"></i>
         )}
       </button>
-      <ul
-        className={isOpen ? "slide" : ""}
-        style={{ display: isOpen ? "block" : "none" }}
-      >
-        {headerMenu.map((menu, key) => (
-          <li key={key}>
-            <Link to={menu.src}>{menu.title}</Link>
-          </li>
-        ))}
-      </ul>
+
+      <Dropdown visibility={isOpen}></Dropdown>
     </div>
   );
 };

@@ -22,14 +22,11 @@
   ul {
     position: absolute;
     top: 70px;
-    max-height: 0;
     text-align: right;
-    overflow: hidden;
-    transition: 0.3s ease-in-out;
 
     a {
       color: black;
-      background-color: black;
+      background-color: none;
       border-radius: 10px;
       font-size: 18px;
       text-shadow: -1px 0 var(--white400), 0 1px var(--white400),
@@ -48,20 +45,43 @@
   }
 }
 
-.slide {
-  max-height: 200px;
+@keyframes slidedown {
+  0% {
+    transform: translateY(-30%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
-// @keyframes ani {
-//   0% {
-//     transform: translateY(-100px);
-//   }
+.slideDown {
+  overflow: hidden;
+}
 
-//   50% {
-//     transform: translateY(-50px);
-//   }
+.slideDown > ul {
+  animation: slidedown 1s ease;
+}
 
-//   100% {
-//     transform: translateY(0);
-//   }
-// }
+@keyframes slideup {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-40%);
+    opacity: 0;
+  }
+}
+
+.slideUp {
+  overflow: hidden;
+}
+
+.slideUp > ul {
+  animation: slideup 0.6s ease-in-out;
+  animation-fill-mode: forwards;
+}
