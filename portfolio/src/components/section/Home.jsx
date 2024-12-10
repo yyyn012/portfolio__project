@@ -1,7 +1,7 @@
 import React from "react";
-import AboutMe from "./AboutMe";
-import Project from "./Project";
-import Contact from "./Contact";
+import AboutMe from "../contents/AboutMe";
+import Project from "../contents/Project";
+import Contact from "../contents/Contact";
 
 const Home = () => {
   return (
