@@ -1,11 +1,11 @@
 import React from "react";
 
-const Todolist = () => {
+const Portfolio = () => {
   return (
     <div className="project__content">
-      <span>Todolist</span>
+      <span>Portfolio</span>
     </div>
   );
 };
 
-export default Todolist;
+export default Portfolio;

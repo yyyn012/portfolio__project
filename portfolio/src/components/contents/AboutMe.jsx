@@ -12,7 +12,7 @@ const AboutMe = () => {
             <i className="fa-solid fa-asterisk"></i>AboutMe
           </h1>
           <span>
-            안녕하세요.<br></br> 항상 발전하는 개발자가 되고 싶은 이혜연입니다.
+            안녕하세요.<br></br> 기초에 집중하여 발전하는 개발자, 이혜연입니다.
           </span>
           <div className="skill">
             <h1>skill</h1>
@@ -26,6 +26,9 @@ const AboutMe = () => {
               </li>
               <li>
                 <span>REACT</span>
+              </li>
+              <li>
+                <span>SCSS</span>
               </li>
               <li>
                 <span>JAVASCRIPT</span>
