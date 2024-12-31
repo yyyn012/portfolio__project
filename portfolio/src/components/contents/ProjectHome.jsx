@@ -6,35 +6,31 @@ import Kakaobank from "../projects/Kakaobank";
 import Skytour from "../projects/Skytour";
 
 const ProjectHome = () => {
+  const projects = [<Portfolio />, <Board />, <Kakaobank />, <Skytour />];
+
   return (
     <section id="project__home">
       <div className="project__home__content__wrap">
         <div className="project__home__content__animation__wrap">
-          <div className="project__content">
-            <Portfolio />
-          </div>
-          <div className="project__content">
-            <Board />
-          </div>
-          <div className="project__content">
-            <Kakaobank />
-          </div>
-          <div className="project__content">
-            <Skytour />
-          </div>
+          {projects.map((project, index) => (
+            <div className="project__content" key={index}>
+              {project}
+            </div>
+          ))}
 
-          <div className="project__content">
-            <Portfolio />
-          </div>
-          <div className="project__content">
-            <Board />
-          </div>
-          <div className="project__content">
-            <Kakaobank />
-          </div>
-          <div className="project__content">
-            <Skytour />
-          </div>
+          {/* 클론1 */}
+          {projects.map((project, index) => (
+            <div className="project__content clone" key={`clone1-${index}`}>
+              {project}
+            </div>
+          ))}
+
+          {/* 클론2 */}
+          {projects.map((project, index) => (
+            <div className="project__content clone" key={`clone2-${index}`}>
+              {project}
+            </div>
+          ))}
         </div>
       </div>
       <h1 className="subject__txt">Project</h1>
