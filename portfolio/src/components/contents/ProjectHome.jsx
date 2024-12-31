@@ -8,9 +8,6 @@ import Skytour from "../projects/Skytour";
 const ProjectHome = () => {
   return (
     <section id="project__home">
-      <h1 className="subject__txt">
-        <i className="fa-solid fa-asterisk"></i>Project
-      </h1>
       <div className="project__home__content__wrap">
         <div className="project__content">
           <Portfolio />
@@ -25,6 +22,7 @@ const ProjectHome = () => {
           <Skytour />
         </div>
       </div>
+      <h1 className="subject__txt">Project</h1>
     </section>
   );
 };

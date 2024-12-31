@@ -1,14 +1,16 @@
 #project__home {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid var(--white);
   position: relative;
   top: 80px;
+  border-bottom: 1px solid var(--white);
+  padding-bottom: 80px;
 
   .subject__txt {
+    writing-mode: vertical-rl;
     padding-bottom: 80px;
+    text-orientation: upright;
   }
 
   .project__home__content__wrap {
@@ -17,7 +19,6 @@
     align-items: center;
     padding-bottom: 25px;
     overflow: hidden;
-    margin: 0 auto;
     width: 800px;
     border: 1px solid red;
 
@@ -26,7 +27,21 @@
       height: 300px;
       margin-left: 20px;
       border: 1px solid var(--white);
+      animation: flowImage 5s linear infinite;
+
+      .project__img {
+        background-image: cover;
+      }
     }
+  }
+}
+
+@keyframes flowImage {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }
 
