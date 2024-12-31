@@ -20,17 +20,28 @@
     padding-bottom: 25px;
     overflow: hidden;
     width: 800px;
-    border: 1px solid red;
 
-    .project__content {
-      width: 250px;
-      height: 300px;
-      margin-left: 20px;
-      border: 1px solid var(--white);
-      animation: flowImage 5s linear infinite;
+    .project__home__content__animation__wrap {
+      display: flex;
+      // justify-content: center;
+      // align-items: center;
+      // padding-bottom: 25px;
+      // overflow: hidden;
+      // width: 800px;
+      animation: flowImage 15s linear infinite;
 
-      .project__img {
-        background-image: cover;
+      &:hover {
+        animation-play-state: paused;
+      }
+
+      .project__content {
+        width: 250px;
+        height: 300px;
+        margin-left: 20px;
+
+        .project__img {
+          background-image: cover;
+        }
       }
     }
   }
@@ -38,10 +49,16 @@
 
 @keyframes flowImage {
   0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  50.01% {
     transform: translateX(100%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(0);
   }
 }
 

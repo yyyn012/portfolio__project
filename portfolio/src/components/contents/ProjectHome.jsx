@@ -9,17 +9,32 @@ const ProjectHome = () => {
   return (
     <section id="project__home">
       <div className="project__home__content__wrap">
-        <div className="project__content">
-          <Portfolio />
-        </div>
-        <div className="project__content">
-          <Board />
-        </div>
-        <div className="project__content">
-          <Kakaobank />
-        </div>
-        <div className="project__content">
-          <Skytour />
+        <div className="project__home__content__animation__wrap">
+          <div className="project__content">
+            <Portfolio />
+          </div>
+          <div className="project__content">
+            <Board />
+          </div>
+          <div className="project__content">
+            <Kakaobank />
+          </div>
+          <div className="project__content">
+            <Skytour />
+          </div>
+
+          <div className="project__content">
+            <Portfolio />
+          </div>
+          <div className="project__content">
+            <Board />
+          </div>
+          <div className="project__content">
+            <Kakaobank />
+          </div>
+          <div className="project__content">
+            <Skytour />
+          </div>
         </div>
       </div>
       <h1 className="subject__txt">Project</h1>
