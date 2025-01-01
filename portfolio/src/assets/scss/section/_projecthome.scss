@@ -17,7 +17,7 @@ $animation-duration: 30s;
   .project__home__content__wrap {
     display: flex;
     overflow: hidden;
-    width: 800px;
+    width: 900px;
 
     &:hover .project__home__content__animation__wrap {
       animation-play-state: paused;
