@@ -14,21 +14,21 @@ const ProjectHome = () => {
         <div className="project__home__content__animation__wrap">
           {projects.map((project, index) => (
             <div className="project__content" key={index}>
-              {project}
+              <div className="content__cover">{project}</div>
             </div>
           ))}
 
           {/* 클론1 */}
           {projects.map((project, index) => (
             <div className="project__content clone" key={`clone1-${index}`}>
-              {project}
+              <div className="content__cover">{project}</div>
             </div>
           ))}
 
           {/* 클론2 */}
           {projects.map((project, index) => (
             <div className="project__content clone" key={`clone2-${index}`}>
-              {project}
+              <div className="content__cover">{project}</div>
             </div>
           ))}
         </div>
