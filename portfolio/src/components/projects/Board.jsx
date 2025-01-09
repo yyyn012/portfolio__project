@@ -2,6 +2,8 @@ import React from "react";
 
 import board from "../../assets/img/board.png";
 
+import { boardText } from "../../data/board";
+
 const Board = () => {
   return (
     <div className="project__content">
