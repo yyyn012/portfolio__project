@@ -1,17 +1,15 @@
 import React from "react";
 
-// import portfolio from "../../assets/img/profile.jpg";
-
 import { portfolioText } from "../../data/portfolio";
 
-const Portfolio = ({ portfolioText }) => {
+const Portfolio = () => {
   return (
-    <div className="project__content">
-      {/* <img
-        className="project__img"
-        src={portfolioText.profile}
-        alt={portfolioText.title}
-      /> */}
+    <div>
+      {portfolioText.map((project, key) => (
+        <div className="project__content" key={key}>
+          <img src={project.img} alt={project.title} />
+        </div>
+      ))}
     </div>
   );
 };
