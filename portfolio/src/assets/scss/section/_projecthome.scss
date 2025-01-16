@@ -34,7 +34,6 @@ $animation-duration: 30s;
         width: 265px;
         height: 290px;
         padding: 0 10px;
-        border-radius: 10px;
 
         .content__cover {
           width: 100%;
@@ -47,8 +46,9 @@ $animation-duration: 30s;
           }
         }
 
-        .project__img {
+        img {
           background-size: cover;
+          border-radius: 10px;
         }
       }
     }
